@@ -1,0 +1,65 @@
+Identity
+    p ∧ T ≡ p, p ∨ F ≡ p
+
+Domination
+    p ∨ T ≡ T, p ∧ F ≡ F
+
+Idempotent
+    p ∨ p ≡ p, p ∧ p ≡ p
+
+Double Negation
+    ¬(¬p) ≡ p
+
+Commutative
+    p ∨ q ≡ q ∨ p
+    p ∧ q ≡ q ∧ p
+
+Associative
+    (p ∨ q) ∨ r ≡ p ∨ (q ∨ r)
+    (p ∧ q) ∧ r ≡ p ∧ (q ∧ r)
+
+Distributive
+    p ∨ (q ∧ r) ≡ (p ∨ q) ∧ (p ∨ r)
+    p ∧ (q ∨ r) ≡ (p ∧ q) ∨ (p ∧ r)
+
+DeMorgan's
+    ¬(p ∨ q) ≡ ¬p ∧ ¬q
+    ¬(p ∧ q) ≡ ¬p ∨ ¬q
+
+Absorption
+    p ∨ (p ∧ q) ≡ p
+    p ∧ (p ∨ q) ≡ p
+
+Negation
+    p ∨ ¬p ≡ T, p ∧ ¬p ≡ F
+
+Conditionals
+    p → q ≡ ¬p ∨ q
+    p → q ≡ ¬q → ¬p
+    p ∨ q ≡ ¬p → q
+    p ∧ q ≡ ¬(p → ¬q)
+    ¬(p → q) ≡ p ∧ ¬q
+    (p → q) ∧ (p → r) ≡ p → (q ∧ r)
+    (p → r) ∧ (q → r) ≡ (p ∨ q) → r
+    (p → q) ∨ (p → r) ≡ p → (q ∨ r)
+    (p → r) ∨ (q → r) ≡ (p ∧ q) → r
+
+Biconditionals
+    p ↔ q ≡ (p → q) ∧ (q → p)
+    p ↔ q ≡ ¬p ↔ ¬q
+    p ↔ q ≡ (p ∧ q) ∨ (¬p ∧ ¬q)
+    ¬(p ↔ q) ≡ p ↔ ¬q
+
+DeMorgan Quantifiers
+    ¬∀xP(x) ≡ ∃x¬P(x)
+    ¬∃xP(x) ≡ ∀x¬P(x)
+
+DoubleNeg Quantifiers
+    ∀xP(x) ≡ ¬(¬∀xP(x)) ≡ ¬∃x¬P(x)
+    ∃xP(x) ≡ ¬(¬∃xP(x)) ≡ ¬∀x¬P(x)
+
+Nested Quantifiers
+    ¬∀x∀yP(x,y) ≡ ∃x∃y¬P(x,y)
+    ¬∀x∃yP(x,y) ≡ ∃x∀y¬P(x,y)
+    ¬∃x∀yP(x,y) ≡ ∀x∃y¬P(x,y)
+    ¬∃x∃yP(x,y) ≡ ∀x∀y¬P(x,y)
