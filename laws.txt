@@ -63,3 +63,9 @@ Nested Quantifiers
     ¬∀x∃yP(x,y) ≡ ∃x∀y¬P(x,y)
     ¬∃x∀yP(x,y) ≡ ∀x∃y¬P(x,y)
     ¬∃x∃yP(x,y) ≡ ∀x∀y¬P(x,y)
+
+Nested Translation
+    If english contains "everyone else" use conditional:
+        (x ≠ y) → R(x,y)
+    else use conjunction:
+        (x ≠ y) ∧ R(x,y)
