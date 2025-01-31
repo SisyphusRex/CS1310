@@ -103,3 +103,6 @@ Set Identities ∪ ∩ ⊕
     Absorption
         A ∪ (A ∩ B) = A
         A ∩ (A ∪ B) = A
+
+Empty String
+    λ
