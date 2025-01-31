@@ -69,3 +69,36 @@ Nested Translation
         (x ≠ y) → R(x,y)
     else use conjunction:
         (x ≠ y) ∧ R(x,y)
+
+Set Identities ∪ ∩ ⊕
+    Idempotent
+        A ∪ A = A
+        A ∩ A = A
+    Associative
+        (A ∪ B) ∪ C = A ∪ (B ∪ C)
+        (A ∩ B) ∩ C = A ∩ (B ∩ C)
+    Commutative
+        A ∪ B = B ∪ A
+        A ∩ B = B ∩ A
+    Distributive
+        A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C)
+        A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C)
+    Identity
+        A ∪ ∅ = A
+        A ∩ U = A
+    Domination
+        A ∩ ∅ = ∅
+        A ∪ U = U
+    Double Complement
+        A'' = A
+    Complement
+        A ∩ A' = ∅
+        U' = ∅
+        A ∪ A' = U
+        ∅' = U
+    De Morgan's
+        (A ∪ B)' = A' ∩ B'
+        (A ∩ B)' = A' ∪ B'
+    Absorption
+        A ∪ (A ∩ B) = A
+        A ∩ (A ∪ B) = A
