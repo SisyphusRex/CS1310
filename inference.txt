@@ -1,0 +1,47 @@
+Rules of inference
+
+Modus Ponens
+    p
+    p → q
+    ------
+    q
+
+Addition
+    p
+    ---
+    p ∨ q
+
+Simplification
+    p ∧ q
+    ------
+    p
+
+Conjunction
+    p
+    q
+    ----
+    p ∧ q
+
+Modus Tollens
+    ¬q
+    p → q
+    ------
+    ¬p
+
+Hypothetical Syllogism
+    p → q
+    q → r
+    ------
+    p → r
+
+Disjunctive Syllogism
+    p ∨ q
+    ¬p
+    -----
+    q
+
+Resolution
+    p ∨ q
+    ¬p ∨ r
+    -------
+    q ∨ r

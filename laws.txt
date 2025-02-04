@@ -106,3 +106,7 @@ Set Identities ∪ ∩ ⊕
 
 Empty String
     λ
+
+Disjoint
+    A ∩ B = ∅
+    
