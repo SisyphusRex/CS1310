@@ -45,3 +45,26 @@ Resolution
     ¬p ∨ r
     -------
     q ∨ r
+
+
+Universal Instantiation
+    ∀xP(x)
+    ------
+    ∴ P(c)
+
+Universal Generalization
+    P(c)
+    -----
+    ∴ ∀xP(x)
+
+Existential Instantiation
+    ∃xP(x)
+    ------
+    ∴ (c is a particular element) ∧ P(c)
+    ***Each use must define new element 'c' then 'd' then 'e' ...
+
+Existential Generalization
+    c is an element
+    P(c)
+    -----
+    ∴ ∃xP(x)
