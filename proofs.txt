@@ -1,0 +1,56 @@
+Integers
+    Even x = 2k
+    Odd x = 2k + 1
+Rational
+    r: r=x/y, y!=0
+Divides
+    x divides y: x|y
+    iff x!=0 & y = kx
+    x does not divide y: x∤y
+Prime
+    n is prime iff n>1 and the only positive integers x|n are 1, n
+Composite
+    n is composite iff n>1 and 1<m<n and m|n
+Positive
+    x>0
+Negative
+    x<0
+Noneggative
+    x>=0
+Nonpositive
+    x<=0
+Absolute Value
+    |x| = -x if x<0
+    |x| = x if x>=0
+
+Thus, therefore:
+    it follows that, then, hence
+Let:
+    introduce new variable names
+Suppose:
+    introduce new variable or assumption
+Since:
+    statement depends on earlier fact
+    because we know that
+We will prove, we will show:
+    indicate where proof is going
+By definition:
+    fact known because of assumption
+In other words:
+    rephrasing a statement
+Gives, yields:
+    an equation follows from another
+
+Types of Proofs:
+    Vacuous
+        conclusion doesnt matter
+    Trivial
+        premise doesnt matter
+    Contradiction
+        p → q is true by showing ¬(p → q) is true and ¬r∧r
+        ¬(p → q) → ¬r∧r
+    Direct
+        prove theory from statements
+    Contrapositive
+        p → q ≡ ¬q → ¬p
+

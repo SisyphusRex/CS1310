@@ -109,4 +109,3 @@ Empty String
 
 Disjoint
     A ∩ B = ∅
-    
