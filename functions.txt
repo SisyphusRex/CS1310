@@ -1,0 +1,73 @@
+Target :
+    y, possible results domain
+
+Range
+    actual results of f(x)
+
+Well Defined
+    every element of x has a y
+    and only one y
+
+Function equality:
+    f(x) = g(x) if they have same domain and target (range doesnt matter)
+
+Injective:
+    one to one
+    each element of x maps to a different element of target
+
+Surjective:
+    onto
+    range of f(x) equals target Y
+    every element of Y has an x
+
+Bijective
+    one to one and onto
+
+Inverse
+    f(x) = (x,y)
+    f^-1 = (y,x)
+    only if all elements of Y map to an x
+    f(x) must be bijection
+
+    Solve equation for x by replacing f(x) with Y
+        f(x) = -x + 3
+        y = -x + 3
+        x = -y + 3 (inverse)
+
+Composition of Functions
+    f ∘ g = f(g(x))
+
+Identity Function
+    Identity of A is IsubA: A → A
+    IsubA(a) = a
+
+Composed Inverse
+    if f(a) = b has an inverse
+    then f^-1(b) = a
+
+Exponential
+    Zero Exponent Law: a^0 = 1.
+    Identity Exponent Law: a^1 = a.
+    Product Law: a^m × a^n = a^ m+n
+    Quotient Law: a^m/a^n = a^ m-n
+    Negative Exponents Law: a^-m = 1/a^ m
+    Power of a Power: (a^m)^n = a^mn
+    Power of a Product: (ab)^m = a^mb^m
+    Power of a Quotient: (a/b)m = a^m/b^m
+    a^(x + y) = b^xb^y
+
+Logarithms
+    Product Rule:
+        log2(4*8) = log2(4) + log2(8)
+    Quotient Rule:
+        log(x/y) = log(x) - log(y)
+    Power Rule:
+        logb(m^n) = nlogb(m)
+    Change of Base:
+        logc(x) = (logb(x)/logb(c)) where c !=1
+
+Strictly Increasing
+    x1 < x2 and f(x1) < f(x2)
+
+Strictly Decreasing
+    x1 < x2 and f(x1) > f(x2)
