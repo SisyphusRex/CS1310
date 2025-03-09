@@ -1,0 +1,27 @@
+Σ
+  set of characters
+  alphabet
+Σⁿ 
+  set of strings of length n containing characters from Σ
+
+Product Rule
+  count sequences
+  Example:
+    Main course = {a, b, c]
+    drink = {x, y}
+    desert = {m, n}
+    Total combinations:
+      3 * 2 * 2 = 12
+
+Sum Rule
+  multiple choices available, only one selection made
+  Example:
+    Computer components
+    screen size = {a, b, c}
+    processor speed = {x, y}
+    Storage
+      HDD = {m, n, o}
+        OR
+      SDD = {q, r}
+    Total = 
+      3 * 2 * (3 + 2) = 30
