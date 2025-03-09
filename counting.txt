@@ -48,6 +48,7 @@ Generalized Product Rule
     because each step removes one runner
 
 Generalize Product Rule: Counting Permutations
+  Permutations are sequences: ORDER MATTERS
   r-permutation:
     sequence of r items with no repetitions
   Number of permutations in set with n elements:
@@ -61,5 +62,8 @@ Permutations with Product Rule:
   5 total items (4 individuals, 1 group)
   group has 2 arrangements
   5! * 2 = 240
+
+Subsets:
+  Subsets are combinations: order does not matter, uniqueness does
 
 
