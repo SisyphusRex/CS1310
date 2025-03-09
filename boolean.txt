@@ -63,4 +63,7 @@ Not And NAND:
 
 Not Or NOR
   x ↓ y equivalent to ¬(x+y)
+
+Satisfiability SAT
+  set variables so expression evaluates to 1 or True
     
