@@ -52,9 +52,14 @@ Generalize Product Rule: Counting Permutations
     sequence of r items with no repetitions
   Number of permutations in set with n elements:
     n!
+    P(n,n)
+  Number of permutations of length x in n elements
+    P(n,x)
 
 Permutations with Product Rule:
   wedding photo with 6 people, bride and groom next to eachother
   5 total items (4 individuals, 1 group)
   group has 2 arrangements
   5! * 2 = 240
+
+
