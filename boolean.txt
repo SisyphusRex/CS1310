@@ -39,3 +39,16 @@ DeMorgans
 Absorption
   x + (xy) = x
   x(x+y) = x
+
+Disjunctive Normal Form 
+  Disjunction is OR
+  c1 + c2 + ... + cm
+  where each cj for j ∈ {1,...,m}
+  Example:
+    x'yz' + xy + w' + yz'w
+  Complement (' or ¬)
+    can only be applied to one variable
+    NOT DNF: ¬(x+y)
+  No addition (+) within single term:
+    NOT DNF: (x+y)w
+    
