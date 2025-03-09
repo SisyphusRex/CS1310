@@ -48,7 +48,8 @@ Generalized Product Rule
     because each step removes one runner
 
 Generalize Product Rule: Counting Permutations
-  Permutations are sequences: ORDER MATTERS
+  Permutations are sequences: ORDER MATTERS 
+    use parentheses ()
   r-permutation:
     sequence of r items with no repetitions
   Number of permutations in set with n elements:
@@ -65,5 +66,6 @@ Permutations with Product Rule:
 
 Subsets:
   Subsets are combinations: order does not matter, uniqueness does
+    use {} braces
 
 
