@@ -25,3 +25,10 @@ Sum Rule
       SDD = {q, r}
     Total = 
       3 * 2 * (3 + 2) = 30
+
+Bijection mapping power set to string:
+  X = {1, 2, 3, 4} 
+  f defined from P(x) to {0,1}^4
+  f({1,4}) = 1001 because 1 and 4 are first and last in set
+  f^-1(1101) = {1,2,4} because 3 is third element and is absent
+  
