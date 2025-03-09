@@ -68,4 +68,14 @@ Subsets:
   Subsets are combinations: order does not matter, uniqueness does
     use {} braces
 
+Factorials:
+  P(5,3) = 5!/2! = (5 * 4 * 3) / (2 * 1)
+
+Count Subsets k- to - 1 rule:
+  Example:
+    How many subsets of 3 colors from 5 color set
+    Number of permutations = P(5,3) = 5!/2!
+    since subset is of length 3, number of k = 3!
+    5!/2! / 3! = 10
+  
 
