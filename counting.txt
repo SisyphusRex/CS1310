@@ -32,3 +32,10 @@ Bijection mapping power set to string:
   f({1,4}) = 1001 because 1 and 4 are first and last in set
   f^-1(1101) = {1,2,4} because 3 is third element and is absent
   
+k-to-1 Rule
+  count number of elements in the range by counting number of elements in domain and dividing by k
+  must be exactly k different x such that f(x) = y
+  Example:
+    pile of shoes on floor, 24 in total, cardinality of x = 24
+    each pair belongs to one person, k = 2
+    cardinality of y = 24 / 2 = 12
