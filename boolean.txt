@@ -40,7 +40,7 @@ Absorption
   x + (xy) = x
   x(x+y) = x
 
-Disjunctive Normal Form 
+Disjunctive Normal Form (DNF):
   Disjunction is OR
   c1 + c2 + ... + cm
   where each cj for j ∈ {1,...,m}
@@ -51,4 +51,10 @@ Disjunctive Normal Form
     NOT DNF: ¬(x+y)
   No addition (+) within single term:
     NOT DNF: (x+y)w
+
+Conjunctive Normal Form (CNF):
+  (x' + y + z')(x+y')(w)(y + z' + w)
+Complement only applies to single variable
+No multiplication within single clause
+  NOT CNF (xy + z)(x)
     
