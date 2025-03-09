@@ -39,3 +39,22 @@ k-to-1 Rule
     pile of shoes on floor, 24 in total, cardinality of x = 24
     each pair belongs to one person, k = 2
     cardinality of y = 24 / 2 = 12
+
+Generalized Product Rule
+  number of items in a set is the product of number of choices in each step
+  Runners Top 3:
+    20 runners
+    20 * 19 * 18
+    because each step removes one runner
+
+Generalize Product Rule: Counting Permutations
+  r-permutation:
+    sequence of r items with no repetitions
+  Number of permutations in set with n elements:
+    n!
+
+Permutations with Product Rule:
+  wedding photo with 6 people, bride and groom next to eachother
+  5 total items (4 individuals, 1 group)
+  group has 2 arrangements
+  5! * 2 = 240
