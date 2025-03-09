@@ -1,0 +1,3 @@
+0 • 0 equivalent to F ∧ F
+1 • 1 equivalent to T ∧ T
+1 + 1 equivalent to T ∨ T
