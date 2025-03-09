@@ -57,4 +57,10 @@ Conjunctive Normal Form (CNF):
 Complement only applies to single variable
 No multiplication within single clause
   NOT CNF (xy + z)(x)
+
+Not And NAND:
+  x ↑ y equivalent to ¬(xy)
+
+Not Or NOR
+  x ↓ y equivalent to ¬(x+y)
     
