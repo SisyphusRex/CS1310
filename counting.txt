@@ -77,5 +77,10 @@ Count Subsets k- to - 1 rule:
     Number of permutations = P(5,3) = 5!/2!
     since subset is of length 3, number of k = 3!
     5!/2! / 3! = 10
+    Number of r subsets from S with n elements =
+      P(n,r)/r!
+
+n choose r notation
+  (ⁿᵣ) = n!/(r!(n-r)!)
   
 
