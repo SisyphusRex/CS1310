@@ -103,3 +103,6 @@ Permutations with repetition:
     11C2 * 9C4 * 5C4 * 1C1
   reduce n by number of repetitions of each char
 
+Multiset
+  Number of occurrences of each element matters
+  {1, 2, 2, 3} != {1, 2, 3} if multiset
