@@ -1,3 +1,8 @@
+PERMUTATION:
+  order matters; distinct
+COMBINATION:
+  order doesnt matter
+
 Σ
   set of characters
   alphabet
