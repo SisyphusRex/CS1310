@@ -93,5 +93,13 @@ n Permute notation
   nPr
   P(n,r)
 
-
+Permutations with repetition:
+  how many ways to scramble mississippi
+    2 P
+    4 S
+    4 I
+    1 M
+    11 total spaces
+    11C2 * 9C4 * 5C4 * 1C1
+  reduce n by number of repetitions of each char
 
