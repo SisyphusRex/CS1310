@@ -120,3 +120,8 @@ Turn into binary string:
 Counting multisets:
   number of ways to select n objects from set of m varieties:
     C(n+m-1 , m-1)
+  EXAMPLE:
+    x1 + x2 + x3 + x4 = 12
+    n = 12
+    m = 4
+    C(15,3)
