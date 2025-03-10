@@ -125,3 +125,22 @@ Counting multisets:
     n = 12
     m = 4
     C(15,3)
+
+Balls in Bins
+  Count Number OF Ways to put balls in bins
+  n balls
+  m bins
+  (possible restrictions on number of balls)
+  Indistinguishable Balls No Restrictions
+    C(n+m-1, m-1)
+  Indistinguishable balls At Most One Ball per Bin
+    C(m, n)
+  Indistiguishable balls with same number per bin
+    1
+  Distinguishable No Restriction
+    m^n
+  Distinguishable At Most One per bin
+    P(m,n)
+  Distinguishable same number per bin
+    n!/((n/m)!)^m
+  
