@@ -82,6 +82,11 @@ Count Subsets k- to - 1 rule:
 
 n choose r notation
   (ⁿᵣ) = n!/(r!(n-r)!)
+  nCr
+  C(n,r)
+n Permute notation
+  nPr
+  P(n,r)
 
 
 
