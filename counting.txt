@@ -83,8 +83,5 @@ Count Subsets k- to - 1 rule:
 n choose r notation
   (ⁿᵣ) = n!/(r!(n-r)!)
 
-Permutations:
-  any order
-Combinations:
-  specific order
+
 
