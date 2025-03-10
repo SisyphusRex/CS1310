@@ -106,3 +106,17 @@ Permutations with repetition:
 Multiset
   Number of occurrences of each element matters
   {1, 2, 2, 3} != {1, 2, 3} if multiset
+
+Encoding:
+  number of bits = n + m - 1
+  where n is number of items selected
+  m is number of varieties
+
+Turn into binary string:
+  5 blue balls, 2 red balls, 3 green balls
+  00000 1 00 1 000
+  5 zeros, 1, 2 zeros, 1, three zeros
+
+Counting multisets:
+  number of ways to select n objects from set of m varieties:
+    C(n+m-1 , m-1)
