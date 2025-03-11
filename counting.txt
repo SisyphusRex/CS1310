@@ -1,3 +1,6 @@
+Exclusion Principle:
+  |A ∪ B| = |A| + |B| - |A ∩ B|
+
 PERMUTATION:
   order matters; distinct
 COMBINATION:
