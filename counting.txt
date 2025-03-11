@@ -1,3 +1,6 @@
+Pigeonhole Principle
+  If n pigeons are in k holes, and k < n, then some hole has more than one pigeon
+
 Exclusion Principle:
   |A ∪ B| = |A| + |B| - |A ∩ B|
 
