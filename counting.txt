@@ -1,6 +1,6 @@
 Pigeonhole Principle
   If n pigeons are in k holes, and k < n, then some hole has more than one pigeon
-  If n pigeons fly into k holes and k<n, then some pigeonhole contains at least ⌈n/k⌉
+  If n pigeons fly into k holes and k<n, then some pigeonhole contains at least ⌈n/k⌉ pigeons
 
 
 Exclusion Principle:
