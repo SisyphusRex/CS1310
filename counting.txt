@@ -27,6 +27,12 @@ Count number of intersections:
   ...
   # of all set intersections = sCs
 
+Mutually Disjoint:
+  intersection of every pair of sets is ∅
+  |A ∪ B ∪ C| = |A| + |B| + |C|
+
+Cardinality of Union by Complement
+  |U| - |'(P ∪ Q ∪ R)| = |P ∪ Q ∪ R|
 
 PERMUTATION:
   order matters; distinct
