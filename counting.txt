@@ -20,6 +20,12 @@ General Exclusion principle:
   4. Subtract four way intersecion
     - |A ∩ B ∩ C ∩ D|
 
+Count number of intersections:
+  s = # of sets to union
+  p = # of pairwise intersections = sC2
+  t = # of three way intersections = sC3
+  ...
+  # of all set intersections = sCs
 
 
 PERMUTATION:
