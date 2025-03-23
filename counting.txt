@@ -180,3 +180,21 @@ Balls in Bins
   Distinguishable same number per bin
     n!/((n/m)!)^m
   
+Lexicographic Order:
+  order n-tuples where they are compared by first differing element
+  (2,1,2,3,5) < (2,1,2,7,1) because 3 < 7
+
+GenLexPermutations:
+  algorithm that takes natural number n and outputs all permutations {1, 2, 3, ..., n}
+    in lexicographic order
+
+  NextPerm(P)
+    takes permutation P and returns smallest permutation larger than P
+
+  Initialize P = (1,2,...,n-1,n)
+  Output P
+  While P != (n, n-1,...,2,1)
+    P = NextPerm(P)
+    Output P
+
+  
