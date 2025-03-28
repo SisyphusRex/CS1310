@@ -1,1 +1,22 @@
+Rsubz on Z
+  Relation of Z on Z
+  x and y must be elements of Z
 
+Reflexive
+  For all x=y, (x,y) ∈ R
+
+Symmetric
+  (x,y) and (y,x) ∈ R
+
+Antisymmetric
+  if (a,b) and (b,a) ∈ R, then a=b
+
+Transitive
+  ((x,y) ∈ R) ∧ ((y,z) ∈ R) → ((x,z) ∈ R)
+
+Equivalence
+  reflexive, symmetric, and transitive
+
+Partial Order
+  poset or pos(S,R)
+  reflexive, antisymmetric, transitive
