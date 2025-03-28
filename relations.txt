@@ -5,6 +5,9 @@ Rsubz on Z
 Reflexive
   For all x=y, (x,y) ∈ R
 
+Anti-Reflexive 
+  Fora all x=y, (x,y) ∉ R
+
 Symmetric
   (x,y) and (y,x) ∈ R
 
