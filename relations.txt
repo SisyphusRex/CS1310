@@ -1,3 +1,6 @@
+xRy
+  x is related to y based on relation R
+
 Rsubz on Z
   Relation of Z on Z
   x and y must be elements of Z
