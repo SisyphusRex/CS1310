@@ -30,7 +30,8 @@ Antisymmetric
 
 Transitive
   ((x,y) ∈ R) ∧ ((y,z) ∈ R) → ((x,z) ∈ R)
-  ** Any relation with a domain cardinality of 2 is automatically transitive**
+  ** x,y,z do not have to be distinct
+  
 
 Equivalence
   reflexive, symmetric, and transitive
