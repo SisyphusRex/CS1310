@@ -15,7 +15,12 @@ Symmetric
   For all x and for all y, (x,y) and (y,x) ∈ R
 
 Antisymmetric
-  if (a,b) and (b,a) ∈ R, then a=b
+  To prove simply:
+    if (a,b) and (b,a) ∈ R, then a=b to be antisymmetric
+  OR A relation is anti-symmetric if for every pair of distinct elements (x and y), one of the following holds:
+    1. (x,y) ∈ R, but (y,x) ∉ R
+    2. (y,x) ∈ R, but (x,y) ∉ R
+    3. (x,y) ∉ R and (y,x) ∉ R
 
 Transitive
   ((x,y) ∈ R) ∧ ((y,z) ∈ R) → ((x,z) ∈ R)
