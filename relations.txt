@@ -27,3 +27,6 @@ Equivalence
 Partial Order
   poset or pos(S,R)
   reflexive, antisymmetric, transitive
+
+Relatively Prime
+  a and b are relatively prime if the only positive integer to evenly divide both is 1
