@@ -86,3 +86,12 @@ Open Walk
   first and last vertices are not the same
 Closed Walk
   First and last vertices are the same
+Trail
+  walk in which no edge occurs more than once
+Path
+  open walk in which no vertex occurs more than once
+Circuit
+  closed trail
+Cycle
+  circuit of length at least 1 in which no vertex occurs more than once, except the first and       last vertex, which are the same
+
