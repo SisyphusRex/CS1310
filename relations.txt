@@ -12,7 +12,7 @@ Anti-Reflexive or Irreflexive
   Fora all x=y, (x,y) ∉ R
 
 Symmetric
-  (x,y) and (y,x) ∈ R
+  For all x and for all y, (x,y) and (y,x) ∈ R
 
 Antisymmetric
   if (a,b) and (b,a) ∈ R, then a=b
