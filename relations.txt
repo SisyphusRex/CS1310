@@ -100,4 +100,6 @@ Composition
     denoted S ∘ R
     R is applied first, then S
     if (a,b) ∈ R and then (b,c) ∈ S, then (a,c) ∈ S ∘ R
+  OR
+    there exists x ∈ A such that (b,x) ∈ R and (x,c) ∈ S
   
