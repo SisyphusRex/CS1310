@@ -8,7 +8,7 @@ Rsubz on Z
 Reflexive
   For all x=y, (x,y) ∈ R
 
-Anti-Reflexive 
+Anti-Reflexive or Irreflexive
   Fora all x=y, (x,y) ∉ R
 
 Symmetric
