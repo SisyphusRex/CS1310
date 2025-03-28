@@ -6,10 +6,10 @@ Rsubz on Z
   x and y must be elements of Z
 
 Reflexive
-  For all x and y and x=y, (x,y) ∈ R
+  For all x=y, (x,y) ∈ R
 
 Anti-Reflexive or Irreflexive
-  For all x and y and x=y, (x,y) ∉ R
+  For all x=y, (x,y) ∉ R
 
 Symmetric
   For all x and for all y, (x,y) and (y,x) ∈ R
