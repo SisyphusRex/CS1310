@@ -7,12 +7,18 @@ Rsubz on Z
 
 Reflexive
   For all x=y, (x,y) ∈ R
+  OR
+  For every x ∈ A, xRx thus (x,x) ∈ R
 
 Anti-Reflexive or Irreflexive
   For all x=y, (x,y) ∉ R
+  OR
+  For every x ∈ A, (x,x) ∉ R
 
 Symmetric
   For all x and for all y, (x,y) and (y,x) ∈ R
+  OR
+  For every pair x,y ∈ A, xRy ⟺ yRx
 
 Antisymmetric
   To prove simply:
