@@ -9,6 +9,8 @@ Reflexive
   For all x=y, (x,y) ∈ R
   OR
   For every x ∈ A, xRx thus (x,x) ∈ R
+  OR
+  ∀x, xRx
 
 Anti-Reflexive or Irreflexive
   For all x=y, (x,y) ∉ R
@@ -19,6 +21,8 @@ Symmetric
   For all x and for all y, (x,y) and (y,x) ∈ R
   OR
   For every pair x,y ∈ A, xRy ⟺ yRx
+  OR
+  ∀x∀y, xRy ⟺ yRx
 
 Antisymmetric
   To prove simply:
