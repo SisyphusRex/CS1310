@@ -95,3 +95,9 @@ Circuit
 Cycle
   circuit of length at least 1 in which no vertex occurs more than once, except the first and       last vertex, which are the same
 
+Composition
+  of relations R and S on set A is another relation on set A
+    denoted S ∘ R
+    R is applied first, then S
+    if (a,b) ∈ R and then (b,c) ∈ S, then (a,c) ∈ S ∘ R
+  
