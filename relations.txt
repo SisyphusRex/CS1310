@@ -78,6 +78,7 @@ Digraph
 Walk
   ⟨v0, v1, ..., vl⟩
   sequence of vertices and edges, but can be represented by vertices
+  ⟨a,b,*,c⟩ third vertex is unknown
 The sequence of vertices is a walk only if:
   (vi-1,vi) ∈ E for each i = 1,2,...,l
 Length of walk, l
