@@ -113,3 +113,18 @@ Graph Power Theorem
 Transitive Closure
   R+
   smallest relation that is both transitive and includes all the pairs from R
+
+Matrix Multiplication
+  n x m matrix with n rows and m columns
+  n x m matrix over S includes elements of S
+
+Adjacency Matrix
+  a directed graph G with n vertices can be represented by n x n matrix over the set {0,1}
+    this is the Adjacency Matrix of G
+  A_{i,j} =  1 if there is an edge from vertex i to j; if no edge, = 0
+
+If mathematical operations are defined on set S, then matrix operations can be defined for matrices
+  over set S
+
+Boolean Matrix
+  matrix with entries from set {0,1}
