@@ -1,0 +1,7 @@
+Subset
+  A ⊆ B, every element of A in B and A could equal B
+  A ⊂ B (proper subset) A cannot equal B
+
+Power Set
+  P(A)
+  set containing all subsets of A, A itself, and ∅
