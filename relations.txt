@@ -57,6 +57,12 @@ Partial Order
   Maximal Element:
     no edges leaving vertex except end at that vertex 
 
+Natural Partial Order:
+  consider set A
+  there is a natural partial order on P(A) power set of A
+  for any two subsets X and Y of A:
+    X ⪯ Y if X ⊆ Y
+
 Relatively Prime
   a and b are relatively prime if the only positive integer to evenly divide both is 1
 
