@@ -110,3 +110,6 @@ Graph Power Theorem
   there is an edge from u to v in G^k
     iff there is a walk of length k from u to v in G
 
+Transitive Closure
+  R+
+  smallest relation that is both transitive and includes all the pairs from R
