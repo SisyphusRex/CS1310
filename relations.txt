@@ -135,4 +135,8 @@ Matrix Multiplication defined:
   If A and B are n x n matrices, the dot product of row i in A and column j in B is the sum of the product  
     of each entry in row i from A with the corresponding entry in column j from B:
     A(i,1)B(1,j) + A(i,2)B(2,j)+...+A(i,n)B(n,j)
+
+Matrix Product
+  AB
+  take dot product of each row and column combination and plot in new matrix
   
