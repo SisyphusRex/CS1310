@@ -102,4 +102,10 @@ Composition
     if (a,b) ∈ R and then (b,c) ∈ S, then (a,c) ∈ S ∘ R
   OR
     there exists x ∈ A such that (b,x) ∈ R and (x,c) ∈ S
-  
+
+Graph Power Theorem
+  G is a directed graph
+  u and v are any two vertices in G
+  there is an edge from u to v in G^k
+    iff there is a walk of length k from u to v in G
+
