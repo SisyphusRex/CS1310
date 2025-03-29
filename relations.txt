@@ -147,3 +147,8 @@ Matrix Multiplication Properties:
 Matrix Addition
   A + B is well defined if both matrices are m x n size
   (A+B)(i,j) = A(i,j) + B(i,j) for all i to m and all j to n
+
+Matrix Addition and Union
+  G adjacency A
+  H adjacency B
+  G ∪ H = A + B
