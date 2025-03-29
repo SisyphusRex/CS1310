@@ -49,6 +49,7 @@ Partial Order
   Comparable:
     if x⪯y or y⪯x
     otherwise, incomparable
+    must be relation between two vertices (arrow/edge)
   Total Order:
     if every two elements in domain are comparable
   Minimal Element:
