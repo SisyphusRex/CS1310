@@ -43,6 +43,18 @@ Equivalence
 Partial Order
   poset or pos(S,R)
   reflexive, antisymmetric, transitive
+  aRb or a⪯b
+    a is at most b
+  Domain (A,⪯)
+  Comparable:
+    if x⪯y or y⪯x
+    otherwise, incomparable
+  Total Order:
+    if every two elements in domain are comparable
+  Minimal Element:
+    no edges into vertex except from that vertex (reflexive)
+  Maximal Element:
+    no edges leaving vertex except end at that vertex 
 
 Relatively Prime
   a and b are relatively prime if the only positive integer to evenly divide both is 1
@@ -152,3 +164,4 @@ Matrix Addition and Union
   G adjacency A
   H adjacency B
   G ∪ H = A + B
+
