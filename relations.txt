@@ -139,4 +139,8 @@ Matrix Multiplication defined:
 Matrix Product
   AB
   take dot product of each row and column combination and plot in new matrix
+
+Matrix Multiplication Properties:
+  associative: A(BC) = (AB)C
+  not commutative: AB ≠ BA
   
