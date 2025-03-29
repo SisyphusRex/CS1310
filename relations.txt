@@ -128,3 +128,11 @@ If mathematical operations are defined on set S, then matrix operations can be d
 
 Boolean Matrix
   matrix with entries from set {0,1}
+
+Matrix Multiplication defined:
+  A x B is defined only if columns in A = rows in B
+  each entry in A x B is computed by taking the dot product of a row of A and a column of B
+  If A and B are n x n matrices, the dot product of row i in A and column j in B is the sum of the product  
+    of each entry in row i from A with the corresponding entry in column j from B:
+    A(i,1)B(1,j) + A(i,2)B(2,j)+...+A(i,n)B(n,j)
+  
