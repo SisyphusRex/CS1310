@@ -54,14 +54,33 @@ Partial Order
     if every two elements in domain are comparable
   Minimal Element:
     no edges into vertex except from that vertex (reflexive)
+    x is minimal if no y such that y<x
   Maximal Element:
     no edges leaving vertex except end at that vertex 
-
+    x is maximal if no y such that x<y
 Natural Partial Order:
   consider set A
   there is a natural partial order on P(A) power set of A
   for any two subsets X and Y of A:
     X ⪯ Y if X ⊆ Y
+
+Strict Order
+  < operator
+  transitive and anti-reflexive
+  similar to partial order, except NO SELF-LOOPS
+
+Directed Acyclic Graph (DAG)
+  directed graph with no cycles
+    cycle: circuit of length at least 1 in which no vertex occurs more than once, except the first and last vertex
+  Example: prerequisite courses cannot have any cycles, else one could never get in course
+
+DAG Strict order:
+  Let G be a directed graph.  G has no cycles iff G+ is a strict order
+
+Topological Sort
+  order vertices consistent with edges of graph
+  if (u,v), then u must appear earlier than v
+  
 
 Relatively Prime
   a and b are relatively prime if the only positive integer to evenly divide both is 1
@@ -172,3 +191,5 @@ Matrix Addition and Union
   H adjacency B
   G ∪ H = A + B
 
+
+  
