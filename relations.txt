@@ -39,6 +39,7 @@ Transitive
 
 Equivalence
   reflexive, symmetric, and transitive
+  a ∼ b , a is equivalent to be
 
 Partial Order
   poset or pos(S,R)
