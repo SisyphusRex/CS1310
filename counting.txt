@@ -197,4 +197,5 @@ GenLexPermutations:
     P = NextPerm(P)
     Output P
 
-  
+Identity
+  theorem stating that two mathematical expressions are equal
