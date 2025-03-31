@@ -219,3 +219,8 @@ Relational Database Model
   Key:
     attribute or set of attributes that uniquely identifies each n-tuple
   
+Selection Operation:
+  choose n-tuples from a relational database that satisfy particular conditions on their attributes
+
+Projection Operation:
+  takes a subset of the attributes and deletes the other attributes in each n-tuple
