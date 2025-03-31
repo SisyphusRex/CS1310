@@ -203,3 +203,7 @@ Identity
 Binomial Theorem
   tool to expand a binomial, eg (a+b)^n
   calculates coefficients of expanded equation (a+b)^5 = 5C0a^5 + 5C1a^4b^1 + 5C2a^3b^2...5C5b^5
+
+Pascal's Identity
+  For any positive n and k such that k<n
+  nCk = (n-1)C(k-1) + (n-1)Ck
