@@ -44,6 +44,11 @@ Equivalence
     set of all x ∈ A such that a ∼ x
     equivalence class
 
+Equivalence Relations
+  x,y ∈ A
+  if x ∼ y, then [x] = [y]
+  else [x] ∩ [y] = ∅
+
 Partial Order
   poset or pos(S,R)
   reflexive, antisymmetric, transitive
