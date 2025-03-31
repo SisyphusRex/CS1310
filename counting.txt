@@ -2,6 +2,15 @@ Pigeonhole Principle
   If n pigeons are in k holes, and k < n, then some hole has more than one pigeon
   If n pigeons fly into k holes and k<n, then some pigeonhole contains at least ⌈n/k⌉ pigeons
   k(b-1) + 1 = how many k to guarantee b
+    Example:
+      52 cards in deck, how many cards have to be picked to ensure at least 6 from same suit
+      k = 4 suits is target
+      b= 6 cards is goal
+      4(6-1)+1 = 21
+      OR
+      ⌈m/4⌉= 6 , looking for smallest m that satisfies
+      m/4 > 5 and m/4 <= 6
+      21 is smallest m that satisfies
 
 Exclusion Principle:
   |A ∪ B| = |A| + |B| - |A ∩ B|
