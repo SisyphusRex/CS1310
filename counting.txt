@@ -199,3 +199,7 @@ GenLexPermutations:
 
 Identity
   theorem stating that two mathematical expressions are equal
+
+Binomial Theorem
+  tool to expand a binomial, eg (a+b)^n
+  calculates coefficients of expanded equation (a+b)^5 = 5C0a^5 + 5C1a^4b^1 + 5C2a^3b^2...5C5b^5
