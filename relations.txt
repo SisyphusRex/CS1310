@@ -40,14 +40,21 @@ Transitive
 Equivalence
   reflexive, symmetric, and transitive
   a ∼ b , a is equivalent to be
+
+Equivalence Class
   [a] 
     set of all x ∈ A such that a ∼ x
-    equivalence class
+    
 
 Equivalence Relations
   x,y ∈ A
   if x ∼ y, then [x] = [y]
   else [x] ∩ [y] = ∅
+
+Partition
+  a set of non-empty subsets of A that are pairwise disjoint and whose union is A
+    Pairwise Disjoint
+      A ∩ B = ∅
 
 Partial Order
   poset or pos(S,R)
