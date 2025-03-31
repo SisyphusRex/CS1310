@@ -40,6 +40,9 @@ Transitive
 Equivalence
   reflexive, symmetric, and transitive
   a ∼ b , a is equivalent to be
+  [a] 
+    set of all x ∈ A such that a ∼ x
+    equivalence class
 
 Partial Order
   poset or pos(S,R)
