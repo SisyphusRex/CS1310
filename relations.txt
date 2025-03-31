@@ -207,5 +207,15 @@ Matrix Addition and Union
   H adjacency B
   G ∪ H = A + B
 
+N-ary Relations
+  A relation on sets A1, A2,...,An is a subset of A1 x A2 x ... An
+  Each element of the relation is an n-tuple in which the ith entry in the n-tuple is from Ai
+  A relation on n-sets is an n-ary relation
 
+Relational Database Model
+  stores data records as relations
+  Attribute:
+    type of data stored in each entry of the n-tuple
+  Key:
+    attribute or set of attributes that uniquely identifies each n-tuple
   
