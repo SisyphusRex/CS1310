@@ -12,3 +12,4 @@ Example:
 ### Geometric Sum
 * Each term is x times the previous term
 * $`H(x) = \sum_{j=0}^{\infty }x^{j}=\frac{1}{1-x}`$
+* sequence is 1,1,1,1...
