@@ -8,3 +8,8 @@ Simple Graph
 Edge Set V
  {{a,b}, {...,...},...}
  whereas directed graph contains tuples {(a,b)...}
+
+Incident
+ edge that is associated with vertices v and w
+Adjacent
+ vertices that share an edge
