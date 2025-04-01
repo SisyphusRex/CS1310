@@ -6,5 +6,5 @@ Example:
 * the sequence  
   * $`f_{0},f_{1},f_{2},...`$   
 * is represented by the generating function  
-  * $`F(x) = f_{0} + f_{1}x + f_{2}x^2 + f_{3}x^3`$  
+  * $`F(x) = f_{0} + f_{1}x + f_{2}x^2 + f_{3}x^3 + ...`$  
 * $`f_{j}`$ is the coefficient of the $`x^j`$ term
