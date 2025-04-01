@@ -1,6 +1,7 @@
 # Generating Function
 represent a sequence of numbers as an algebraic function in which each term in the sequence is a coefficient
 of an $`x^{j}`$ term in the function  
+
 Example:  
 * the sequence  
   * $`f_{0},f_{1},f_{2},...`$   
