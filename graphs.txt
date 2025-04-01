@@ -1,0 +1,10 @@
+Graphs
+Specifically, unDirected Graphs:  
+ the edges are UNORDERED pairs of vertices
+Parallel Edges
+ multiple edges between same pair of vertices
+Simple Graph
+ no parallel edges or self-loops
+Edge Set V
+ {{a,b}, {...,...},...}
+ whereas directed graph contains tuples {(a,b)...}
