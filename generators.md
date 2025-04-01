@@ -9,6 +9,6 @@ Example:
   * $`F(x) = f_{0} + f_{1}x + f_{2}x^2 + f_{3}x^3 + ...`$  
 * $`f_{j}`$ is the coefficient of the $`x^j`$ term
 
-Geometric Sum
+### Geometric Sum
 * Each term is x times the previous term
 * $`H(x) = \sum_{j=0}^{\infty }x^{j}=\frac{1}{1-x}`$
