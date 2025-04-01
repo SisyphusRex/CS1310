@@ -3,6 +3,7 @@ Target :
 
 Range
     actual results of f(x)
+    codomain
 
 Well Defined
     every element of x has a y
