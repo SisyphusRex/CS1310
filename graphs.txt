@@ -15,5 +15,4 @@ Incident
   incident edges are only in-degree edges
 Adjacent
  vertices that share an edge
- For Digraphs
-  any vertex you can reach in a walk from a vertex
+ 
