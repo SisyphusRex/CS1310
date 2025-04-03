@@ -6,7 +6,7 @@ Parallel Edges
 Simple Graph
  no parallel edges or self-loops
 Complete Graph
- exactly one edge between each pair of vertices
+ simple graph with exactly one edge between each pair of vertices
 Edge Set V
  {{a,b}, {...,...},...}
  whereas directed graph contains tuples {(a,b)...}
