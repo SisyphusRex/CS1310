@@ -1,5 +1,5 @@
 Graphs
-Specifically, unDirected Graphs:  
+Specifically, unDirected Graphs:
  the edges are UNORDERED pairs of vertices
 Parallel Edges
  multiple edges between same pair of vertices
@@ -15,4 +15,41 @@ Incident
   incident edges are only in-degree edges
 Adjacent
  vertices that share an edge
- 
+
+Degree
+    number of neighbors a vertex has
+
+Total degree
+    sum of degrees of all vertices
+    2 * number of edges
+Regular Graph
+    all vertices have the same degree
+d-Regular Graph
+    all vertices have degree d
+
+Complete Graph K_n
+    edge between every pair of vertices
+    AKA clique
+Cycle C_n
+    edges form a ring
+Hypercube Q_n
+    2^n vertices
+K_(n,m)
+    vertices in two sets, n and m
+    no edges in same sets
+    every vertex in one set has edge to every vertex of other set
+
+Adjacency List Representation
+    Each vertex has list of neighbors in table
+Matrix Representation
+    Vertices on both axes
+    1 indicates edge, 0 no edge
+
+Isomorphic
+    correspondence between the vertex sets of each graph such that:
+        there is an edge between two vertices of one graph iff
+        ther is an edge between corresponding vertices of second graph
+Degree Sequence
+    list of degrees of all vertices in decreasing order
+
+
