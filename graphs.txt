@@ -52,4 +52,50 @@ Isomorphic
 Degree Sequence
     list of degrees of all vertices in decreasing order
 
+Walks, etc.
+    SEE Digraphs in relations.txt
+Walk:
+    starts at vertex and ends at vertex, series of alternating vertexes and edges
+    length= number of edges
+    Closed: ends at same vertex
+    Open: not at same vertex
+Trail:
+    walk with no repeated edges
+Path:
+    open walk with no repeated vertexes
+Circuit:
+    closed Trail
+Cycle:
+    circuit of length at least 1 which no vertex occurs more than once (except start and end)
+
+Connected Vertices
+    walk between u and v
+    if every pair connected, graph is connected, otherwise disconnected
+Isolated vertex:
+    not connected with any other vertices
+Connected Component:
+    if another vertex is added to set, then it will be disconnected
+
+k-Vertex-Connected
+    contains at least k+1 vertices and remains connected after any k-1 vertices removed from graph
+Vertex Connectivity
+    largest k such that the graph is k-vertex-connected
+    κ(G)
+    OR
+    minimum number of vertices which would disconnect the graph
+
+k-Edge-Connected
+    removing k-1 or fewer edges results in connected graph
+Edge Connectivity:
+    largest k such that the graph is k-edge-connected
+    λ(G)
+    OR
+    minimum number of edges that would disconnect the graph
+
+Euler Circuit:
+    contains every edge and every vertex
+    every vertex has even degree
+    IF G is connected and every vertex is even degree
+        THEN Euler circuit exists
+
 
