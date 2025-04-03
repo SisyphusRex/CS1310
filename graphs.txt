@@ -36,6 +36,9 @@ Complete Graph K_n
     AKA clique
 Cycle C_n
     edges form a ring
+Wheel
+ W_n
+ add single vertex to C_n and connecting it to each other vertex
 Hypercube Q_n
     2^n vertices
 K_(n,m)
