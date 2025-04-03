@@ -31,6 +31,8 @@ d-Regular Graph
 
 Complete Graph K_n
     edge between every pair of vertices
+ number of edges, m,  with n vertices:
+  n(n-1)/2 = m
     AKA clique
 Cycle C_n
     edges form a ring
