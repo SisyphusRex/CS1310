@@ -41,6 +41,7 @@ Wheel
  add single vertex to C_n and connecting it to each other vertex
 Hypercube Q_n
     2^n vertices
+    vertices: 1,2,4,8,16,...2^n
 K_(n,m)
     vertices in two sets, n and m
     no edges in same sets
