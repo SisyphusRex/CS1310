@@ -110,3 +110,10 @@ Euler Trail:
  must be a connected graph and exactly 2 vertices with odd degree
  must begin on odd degree vertex
 
+Hamilton Cycle:
+ cycle that includes every vertex in an undirected graph
+ if graph contains vertex of degree 1, cannot be hamilton cycle
+Hamilton Path:
+ path that includes every vertex in an undirected graph
+** Turn Cycle into path by deleting last vertex
+thus, every hamilton cycle contains a hamilton path
