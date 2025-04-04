@@ -53,6 +53,8 @@ Wheel
 Hypercube Q_n
     2^n vertices
     vertices: 1,2,4,8,16,...2^n
+    degree of each vertex = n
+    2^(n-1) * n edges
 K_(n,m)
     vertices in two sets, n and m
     no edges in same sets
