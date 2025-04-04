@@ -1,3 +1,10 @@
+Formulae
+ n- vertices, m- edges, r-regions
+ Total Degree = 2 * m
+ Total Degree = n(n-1)
+ Total Edges = n(n-1)/2
+ Euler Identity: n - m + r = 2
+
 Graphs
 Specifically, unDirected Graphs:
  the edges are UNORDERED pairs of vertices
@@ -145,3 +152,7 @@ Euler's Planar Identity
 Degree of Region
  number of times one traverses the edges of the region
  internal pointing regions can be traversed twice
+Number of Edges on Planar Graph
+ n vertices
+ m edges
+ if n >= 3, then m <= 3n-6
