@@ -166,3 +166,13 @@ Graph Coloring
   is a function f: V → C such that for every edge {x,y} ∈ E, f(x) ≠ f(y)
  k-Coloring of G
   if the size of the range of functionf is k, then f is called a k-coloring of G
+Chromatic Number
+ χ(G) is the smallest k such that ther is a valid k-coloring of G
+
+Clique
+ Subset of vertices of G such that all unique vertices are adjacent
+ subgraph must be K complete
+Clique Number
+ ω(G) number of vertices in a maximum clique of G (no clique with more vertices)
+  ω(G) <= χ(G)
+
