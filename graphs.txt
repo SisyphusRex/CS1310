@@ -126,3 +126,19 @@ Planar Embedding
 Crossing
  between two edges
  if their curves intersect at a point that is not a common endpoint
+Planar Graph
+ if the graph has planar embedding
+Complement of an Embedding
+ set of all points in the plane that are not a vertex or part of a curve
+Region
+ set of points in embedding that form a maximal continuous set
+Maximal
+ another point cannot be added to region and it remains continuous
+Continuous
+ One cannot travel from one part to another without crossing an edge
+Euler's Planar Identity
+ Consider a planar embedding of a connected graph G.  
+ n is number of vertices in G
+ m is number of edges
+ r is number of regions in the embedding
+ n - m + r = 2
