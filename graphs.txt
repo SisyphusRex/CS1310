@@ -88,6 +88,7 @@ Circuit:
     closed Trail
 Cycle:
     circuit of length at least 1 which no vertex occurs more than once (except start and end)
+    Simple graph requires at least 3 vertexes
 
 Connected Vertices
     walk between u and v
