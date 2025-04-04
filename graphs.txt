@@ -169,6 +169,9 @@ Graph Coloring
 Chromatic Number
  χ(G) is the smallest k such that ther is a valid k-coloring of G
  check for valid colorings until you cannot go smaller
+χ(G) Upper Bound
+ Δ(G) be the maximum degree of any vertex in G
+ χ(G) <= Δ(G) + 1
 
 Clique
  Subset of vertices of G such that all unique vertices are adjacent
@@ -177,4 +180,5 @@ Clique Number
  maximum number of vertices that are subgraph of G and K complete
  ω(G) number of vertices in a maximum clique of G (no clique with more vertices)
   ω(G) <= χ(G)
+
 
