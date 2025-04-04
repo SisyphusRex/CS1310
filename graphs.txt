@@ -19,6 +19,8 @@ Complete Graph
 Edge Set V
  {{a,b}, {...,...},...}
  whereas directed graph contains tuples {(a,b)...}
+Bipartite
+ vertexes can be split into two groups with no edges within group, only between
 
 Incident
  edge that is associated with vertices v and w
