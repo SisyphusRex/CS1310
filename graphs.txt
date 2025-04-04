@@ -142,3 +142,6 @@ Euler's Planar Identity
  m is number of edges
  r is number of regions in the embedding
  n - m + r = 2
+Degree of Region
+ number of times one traverses the edges of the region
+ internal pointing regions can be traversed twice
