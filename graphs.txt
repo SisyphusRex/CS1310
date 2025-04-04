@@ -5,6 +5,7 @@ Formulae
  Total Edges = n(n-1)/2
  Euler Identity: n - m + r = 2
  Edges in Planar Graph n>=3, m <= 3n - 6
+  if m > 3n -6, then graph is not planar
 
 Graphs
 Specifically, unDirected Graphs:
