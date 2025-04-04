@@ -117,3 +117,12 @@ Hamilton Path:
  path that includes every vertex in an undirected graph
 ** Turn Cycle into path by deleting last vertex
 thus, every hamilton cycle contains a hamilton path
+
+Embedding
+ for G=(V,E) is an assignment of the vertices to points in the plane and the assignment of each edge to a continuous curve
+   the curve for each edge must start and end at the two points corresponding to the endpoints of the edge
+Planar Embedding
+ none of the edges cross
+Crossing
+ between two edges
+ if their curves intersect at a point that is not a common endpoint
