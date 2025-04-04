@@ -4,6 +4,7 @@ Formulae
  Total Degree = n(n-1)
  Total Edges = n(n-1)/2
  Euler Identity: n - m + r = 2
+ Edges in Planar Graph n>=3, m <= 3n - 6
 
 Graphs
 Specifically, unDirected Graphs:
