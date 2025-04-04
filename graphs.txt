@@ -105,5 +105,8 @@ Euler Circuit:
     every vertex has even degree
     IF G is connected and every vertex is even degree
         THEN Euler circuit exists
-
+Euler Trail:
+ open trail that includes every edge and vertex
+ must be a connected graph and exactly 2 vertices with odd degree
+ must begin on odd degree vertex
 
