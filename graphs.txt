@@ -158,3 +158,11 @@ Number of Edges on Planar Graph
  n vertices
  m edges
  if n >= 3, then m <= 3n-6
+
+Graph Coloring
+ each edge must connect vertices of different colors
+ Let G = (V,E) be an undirected graph and C a finite set of colors.  
+ Valid Coloring:
+  is a function f: V → C such that for every edge {x,y} ∈ E, f(x) ≠ f(y)
+ k-Coloring of G
+  if the size of the range of functionf is k, then f is called a k-coloring of G
