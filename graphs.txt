@@ -151,7 +151,7 @@ Maximal
 Continuous
  One cannot travel from one part to another without crossing an edge
 Euler's Planar Identity
- Consider a planar embedding of a connected graph G.  
+ Consider a planar embedding of a connected graph G.
  n is number of vertices in G
  m is number of edges
  r is number of regions in the embedding
@@ -166,7 +166,7 @@ Number of Edges on Planar Graph
 
 Graph Coloring
  each edge must connect vertices of different colors
- Let G = (V,E) be an undirected graph and C a finite set of colors.  
+ Let G = (V,E) be an undirected graph and C a finite set of colors.
  Valid Coloring:
   is a function f: V → C such that for every edge {x,y} ∈ E, f(x) ≠ f(y)
  k-Coloring of G

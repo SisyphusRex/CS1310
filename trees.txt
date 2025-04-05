@@ -73,3 +73,11 @@ Algorithms
 
 Spanning Tree
     a subgraph of G that contains all of the vertices in G and is a tree
+
+Weighted Graph
+    G=(V,E) along with function w: E → ℝ where w assigns a real number to every edge
+Weighted Subgraph
+    if H is subgraph of G, then w(H) is the sum of the weights of the edges in H
+Minimum Spanning Tree
+    of a weighted graph
+    the spanning tree T of G with a weight that is no larger than any other spanning tree of G
