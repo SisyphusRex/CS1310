@@ -1,0 +1,75 @@
+Tree
+    an undirected graph that is connected and has no cycles
+Forest
+    graph that has no cycles and is not necessarily connected
+Free Tree
+    unorganized vertices and edges
+    Any free tree with at least two vertices has at least two leaves
+Rooted Tree
+    vertex designated as root
+    Level
+        distance from root
+    Height
+        highest level of any vertex
+Unique Paths
+    Let T be a tree and let u and v be two vertices in T.  There is exactly one path between u and v
+Parent
+    parent of u is first vertex, v, you encounter on path to root
+    root does not have parent
+Ancestor
+    every vertex along path from v to root are ancestors
+Child
+    If u is parent of v, then v is child of u
+Descendant
+    if u is ancestor of v, then v is descendant of u
+Leaf
+    Vertex with no children
+    In a Free Tree, has degree of 1
+    If a free tree has only one vertex, then it is a leaf
+Siblings
+    vertexes share same parent
+Subtree
+    tree consisting of vertex v and all of v's descendants
+Internal Vertex
+    if the vertex has a degree of at least 2
+
+Prefix
+    string s is a prefix of another string t if all the characters in string s appear at the beginning
+    of string t
+Prefix Code
+    the code for one character cannot be the prefix of the code for another character
+
+Number of Edges in a Tree
+    n vertices and m edges
+    m = n - 1
+Number of Edges in a Forest
+    c number of connected components
+    m = n - c
+
+Traversal
+    process information stored in vertices by systematically visting each vertex
+Algorithms
+    Pre-Order Traversal
+        vertex is visited before its descendants
+            Pre-order(v)
+            process(v)
+            for child w of v:
+                pre-order(w)
+
+        Order Trick:  Draw tree and start at root, go along outside of tree and whenever you pass by left side of vertex it
+            is added in order
+
+    Post-Order Traversal
+        vertex is visited after its descendants
+            Post-order(v)
+            for child w of v:
+                Post-order(w)
+            process(v)
+
+        Order trick:  draw tree and start at root, go along outside of tree and whenever you pass by right side of vertex it
+            is added in order
+    in both algorithms, once a vertex of a subtree is visited, all of the vertices in that subtree are visited
+    before vertices outside the subtree
+
+Spanning Tree
+    a subgraph of G that contains all of the vertices in G and is a tree
