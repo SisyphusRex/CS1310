@@ -11,3 +11,13 @@ Omega Notation Ω (LOWER BOUND)
     𝑓(𝑛) ≥ 𝑐 * 𝑔(𝑛)
 
 𝑓 is Ω(𝑔) iff 𝑔 is O(𝑓)
+
+Theta Notation Θ (SAME RATE)
+  Let 𝑓 and 𝑔 be functions from ℤ+ to ℝ≥
+  Then 𝑓 is Θ(𝑔) if 𝑓 is O(𝑔) and 𝑓 is Ω(𝑔)
+
+Asymptotic Growth of Polynomials
+  let 𝑝(𝑛) be a degree-𝑘 polynomial of the form:
+  𝑝(𝑛) = 𝑎ₖ𝑛^𝑘 + 𝑎_(𝑘-1)𝑛^(𝑘-1)+ ... + 𝑎₁𝑛 + 𝑎₀
+  in which 𝑎ₖ > 0.
+  Then 𝑝(𝑛) is Θ(𝑛^𝑘)
