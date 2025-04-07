@@ -1,6 +1,11 @@
-Big O Notation
+Big O Notation (UPPER BOUND)
   Let 𝑓 and 𝑔 be functions from ℤ+ to ℝ≥
     ℝ≥ denotes the set of nonnegative real numbers: ℝ≥ = ℝ+ ∪ {0}
   Then 𝑓 is O(𝑔) if there are positive real numbers 𝑐 and 𝑛₀ such that for any 𝑛 ∈ ℤ+ where 𝑛 ≥ 𝑛₀,
     𝑓(𝑛) ≤ 𝑐 * 𝑔(𝑛)
     𝑛₀ need not be zero; we can omit small values of n if 𝑓(𝑛) < 𝑔(𝑛) and n < 𝑛₀
+
+Omega Notation Ω (LOWER BOUND)
+  Let 𝑓 and 𝑔 be functions from ℤ+ to ℝ≥
+  Then 𝑓 is Ω(𝑔) if there are positive real numbers 𝑐 and 𝑛₀ such that for any 𝑛 ∈ ℤ+ where 𝑛 ≥ 𝑛₀,
+    𝑓(𝑛) ≥ 𝑐 * 𝑔(𝑛)
