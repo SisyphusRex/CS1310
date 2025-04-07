@@ -9,3 +9,5 @@ Omega Notation Ω (LOWER BOUND)
   Let 𝑓 and 𝑔 be functions from ℤ+ to ℝ≥
   Then 𝑓 is Ω(𝑔) if there are positive real numbers 𝑐 and 𝑛₀ such that for any 𝑛 ∈ ℤ+ where 𝑛 ≥ 𝑛₀,
     𝑓(𝑛) ≥ 𝑐 * 𝑔(𝑛)
+
+𝑓 is Ω(𝑔) iff 𝑔 is O(𝑓)
