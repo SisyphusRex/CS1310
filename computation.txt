@@ -1,1 +1,5 @@
-Computation
+Big O Notation
+  Let 𝑓 and 𝑔 be functions from ℤ+ to ℝ≥
+    ℝ≥ denotes the set of nonnegative real numbers: ℝ≥ = ℝ+ ∪ {0}
+  Then 𝑓 is O(𝑔) if there are positive real numbers 𝑐 and 𝑛₀ such that for any 𝑛 ∈ ℤ+ where 𝑛 ≥ 𝑛₀,
+    𝑓(𝑛) ≤ 𝑐 * 𝑔(𝑛)
