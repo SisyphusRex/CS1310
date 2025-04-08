@@ -36,3 +36,15 @@ Power Functions
     Ω(log n)
     O(c^n)
     includes all polynomial functions
+
+Increasing order of Θ Growth Rate
+  Constant Θ(1)
+  log log Θ(log log n)
+  logarithmic Θ(log n)
+  Linear Θ(n)
+  nlogn Θ(nlogn)
+  Quadratic Θ(n^2)
+  Cubic Θ(n^3)
+  Exponential Θ(c^n), c>1
+  Factorial, Θ(n!)
+each growth rate is bounded by Ω above it and O below it
