@@ -21,3 +21,11 @@ Asymptotic Growth of Polynomials
   𝑝(𝑛) = 𝑎ₖ𝑛^𝑘 + 𝑎_(𝑘-1)𝑛^(𝑘-1)+ ... + 𝑎₁𝑛 + 𝑎₀
   in which 𝑎ₖ > 0.
   Then 𝑝(𝑛) is Θ(𝑛^𝑘)
+
+Rules of Asymptotic Growth
+  1. If f is O(h) and g is O(h), then f + g is O(h)
+  2. If f is Ω(h) or g is Ω(h), the f + g is Ω(h)
+  3. If f is O(g) and c is a positive real number, then c * f is O(g)
+  4. If f is Ω(g) and c is a positive real number, then c * f is Ω(g)
+  5. If f is O(g) and g is O(h), then f is O(h)
+  6. If f is Ω(g) and g is Ω(h), then f is Ω(h)
