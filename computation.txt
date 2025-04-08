@@ -12,7 +12,7 @@ Omega Notation Ω (LOWER BOUND)
 
 𝑓 is Ω(𝑔) iff 𝑔 is O(𝑓)
 
-Theta Notation Θ (SAME RATE)
+Theta Notation Θ (SAME RATE) (GROWTH RATE)
   Let 𝑓 and 𝑔 be functions from ℤ+ to ℝ≥
   Then 𝑓 is Θ(𝑔) if 𝑓 is O(𝑔) and 𝑓 is Ω(𝑔)
 
@@ -29,3 +29,10 @@ Rules of Asymptotic Growth
   4. If f is Ω(g) and c is a positive real number, then c * f is Ω(g)
   5. If f is O(g) and g is O(h), then f is O(h)
   6. If f is Ω(g) and g is Ω(h), then f is Ω(h)
+
+Power Functions
+  f(n) is a power function if f(n) is Θ(n^k) for some positive real number k.
+  All power functions are:
+    Ω(log n)
+    O(c^n)
+    includes all polynomial functions
