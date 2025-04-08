@@ -84,10 +84,12 @@ Walk:
     length= number of edges
     Closed: ends at same vertex
     Open: not at same vertex
+    (Gupta calls this a PATH)
 Trail:
     walk with no repeated edges
 Path:
     open walk with no repeated vertexes
+    (Gupta calls this a SIMPLE PATH)
 Simple Path:
    path containing no repeated vertices
    same as path
