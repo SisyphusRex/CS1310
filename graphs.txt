@@ -93,9 +93,11 @@ Simple Path:
    same as path
 Circuit:
     closed Trail
+    (Gupta calls this a CYCLE)
 Cycle:
     circuit of length at least 1 which no vertex occurs more than once (except start and end)
     Simple graph requires at least 3 vertexes
+    (Gupta calls this a SIMPLE CYCLE)
 Simple Cycle:
    No repeated vertices except start (thus end)
    same as cycle
