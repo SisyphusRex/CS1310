@@ -109,6 +109,10 @@ Simple Cycle:
 Connected Vertices
     walk between u and v
     if every pair connected, graph is connected, otherwise disconnected
+Strong Connection
+    digraph is strong if path from a to b and b to a for all a,b
+Weak Connection
+    If there is a path between every two vertices in underlying undirected graph
 Isolated vertex:
     not connected with any other vertices
 Connected Component:
