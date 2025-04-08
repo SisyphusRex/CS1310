@@ -88,11 +88,18 @@ Trail:
     walk with no repeated edges
 Path:
     open walk with no repeated vertexes
+Simple Path:
+   path containing no repeated vertices
+   same as path
 Circuit:
     closed Trail
 Cycle:
     circuit of length at least 1 which no vertex occurs more than once (except start and end)
     Simple graph requires at least 3 vertexes
+Simple Cycle:
+   No repeated vertices except start (thus end)
+   same as cycle
+
 
 Connected Vertices
     walk between u and v
