@@ -21,6 +21,10 @@ Edge Set V
  whereas directed graph contains tuples {(a,b)...}
 Bipartite
  vertexes can be split into two groups with no edges within group, only between
+Complete Bipartite
+ K_{m,n}
+ every vertex in each group has edge with every vertex in other group
+
 
 Incident
  edge that is associated with vertices v and w
