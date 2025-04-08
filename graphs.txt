@@ -102,6 +102,9 @@ Simple Cycle:
    No repeated vertices except start (thus end)
    same as cycle
 
+∅
+   (gupta says empty set contains a path)
+
 
 Connected Vertices
     walk between u and v
