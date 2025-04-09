@@ -48,3 +48,19 @@ Increasing order of Θ Growth Rate
   Exponential Θ(c^n), c>1
   Factorial, Θ(n!)
 each growth rate is bounded by Ω above it and O below it
+
+Computational Complexity
+  Time Complexity
+    time
+  Space Complexity
+    memory
+Atomic Operations
+  (operations that are performed fully or not at all, with no intermediate states and other processes have to wait for it to finish)
+  assignment
+  arithmetic operations
+  comparison
+  return statements
+
+Time Complexity as Function
+  f: ℤ+ → ℤ+ such that f(n) is the maximum number of atomic operatioins performed by the algorithm on an input size n
+  f(n) means max{f(n), 1} which is the largest number between f(n) and 1, preventing f(n) < 1
