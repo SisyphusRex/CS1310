@@ -1,0 +1,18 @@
+Finite State Machine
+  FSM
+  Finite State Automaton
+  consist of a finite set of states with transitions between the states triggered by different input actions
+  machine at rest in state: input could change state or not depending on input handling
+  current state is the only state a machine remembers
+  states Q {Locked, Unlocked}
+  designated start state: Locked
+    q_0 is start state
+  actions I {Coin, Push}
+    input is a sequence of actions from I
+
+Transition Function δ (Delta)
+  reaction of a FSM to input
+  input to Transition Function is current state and input action:
+    Q x I cartesian product set
+  δ(Locked, Coin) = Unlocked
+  δ: Q x I → Q
