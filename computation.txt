@@ -64,3 +64,10 @@ Atomic Operations
 Time Complexity as Function
   f: ℤ+ → ℤ+ such that f(n) is the maximum number of atomic operatioins performed by the algorithm on an input size n
   f(n) means max{f(n), 1} which is the largest number between f(n) and 1, preventing f(n) < 1
+
+Asymptotic Complexity
+  rate of asymptotic growth of the algorithm's time complexity function f(n)
+
+Polynomial Time
+  O(n^k)
+  considered "Efficient"
