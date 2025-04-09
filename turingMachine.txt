@@ -1,0 +1,76 @@
+Church-Turing Conjecture
+  any problem that can be solved efficiently on any computing device can be solved efficiently by a Turing machine
+
+Memory
+  One dimensional tape divided into cells
+  each cell can hold one symbol from a finite Tape Alphabet
+  Tape Alphabet Γ
+    must contain Blank Symbol *
+    and at least one other symbol
+    Ex. {a, b, *}
+  the tape is infinite to the right but has a leftmost cell (so not infinite to left)
+
+States Q
+  Includes three special states:
+    q_0 start
+    q_acc accept
+    q_rej reject
+  Current symbol
+    symbol in the cell to which the head is currently pointing
+
+Configuration:
+  Consists of:
+    contents of tape
+    current state
+    tape cell to which head is pointing 
+
+Action is Transition Function δ
+  Input:
+    current state
+    current symbol
+  Output:
+    state
+    tape symbol
+    direction for tape head to move
+  Defined for every (state, tape symbol) pair except acc and rej
+    machine stops for acc and rej
+  δ: (Q - {q_acc, q_rej}) x Γ → Q x Γ x {L, R}
+  
+
+Input Alphabet Σ
+  Proper subset of Tape Alphabet
+    Σ ⊂ Γ
+  Cannot contain blank symbol
+    * ∉ Σ
+  The input is a string over the input alphabet
+  Input is written on the tape as a string of input symbols (from input alphabet) and rest of tape is * to right
+
+The Turing machine can halt by accepting or rejecting, or may never halt
+  Limitation because Turing machine can only handle Decision Problems (yes or no)
+
+Decision Problems
+  yes or no
+Search Problems
+  find
+
+Σ*
+  set of all finite strings over Σ
+  a language, 𝐿, is a subset of Σ*
+    𝐿 ⊆ Σ*
+
+Language Computed by Turing Machine
+  Let Σ denote a finite alphabet and let 𝐿 be a language over Σ. 
+  A Turing Machine 𝑀 computes language 𝐿 (or decides language 𝐿) if:
+    for every x ∈ Σ*, 
+      if x ∈ 𝐿:
+        then 𝑀 accepts x in a finite number of steps
+      if x ∉ 𝐿:
+        then 𝑀 rejects
+
+𝐿 is the set of solutions, the language computed
+
+Graph Encoding:
+  Number of Vertices; list of edges
+  Example:
+    4; (1,2)(1,4)(3,1)(3,4)
+
