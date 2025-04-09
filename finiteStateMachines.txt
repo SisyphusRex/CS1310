@@ -15,4 +15,23 @@ Transition Function δ (Delta)
   input to Transition Function is current state and input action:
     Q x I cartesian product set
   δ(Locked, Coin) = Unlocked
+    δ(State, Input) = State
   δ: Q x I → Q
+
+FSM with Output
+  Output Set
+    O = {Gumball, Return, Message, None}
+  δ Domain
+    Q x I
+  δ Target
+    Q x O
+  δ: Q x I → Q x O
+
+Accepting State
+  sequence of inputs is a string over finite input alphabet
+  String is accepted if FSM ends up in accepting state after processing characters
+  Accepting States are a DESIGNATED subset of states:
+    A ⊆ Q
+
+Parity of String
+  whether number of 1s is even or odd
