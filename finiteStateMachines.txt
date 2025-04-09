@@ -35,3 +35,7 @@ Accepting State
 
 Parity of String
   whether number of 1s is even or odd
+
+FSM Limitations
+  Finite Memory and only the Current State
+    cannot handle sets with infinite members
