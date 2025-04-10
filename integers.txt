@@ -49,6 +49,28 @@ Hash Function
   ** NOTE: T and c should be coprime to reduce collisions
 
 Pseudo-Random Number Generators
+  produces numbers having statistical properties of random numbers but are deterministically generated
+    deterministic: same output for given input
+    probabilistic: introduce uncertainty and assign probabilities to outcomes
+
+Linear Congruential Generator
+  starts with initial value X_0 and generates each subsequent value as a function of the previous value according function:
+  x_(n+1) = (aX_n + c) mod m
+  each number generated lies in the range 0 ≤ g ≤ m-1
+
+Congruence mod m
+  Equivalent iff
+  x mod m = y mod m
+  x ≡ y(mod m)
+Alternate Congruence mod m
+  x ≡ y(mod m) iff m | (x-y)
+
+Computing Arithmetic Operations mod m
+  Let m be an integer > 1 and x and y are integers
+  [(x mod m) + (y mod m)] mod m = [x + y] mod m
+  [(x mod m)(y mod m)] mod m = [x*y] mod m
+
+
   
 
 
