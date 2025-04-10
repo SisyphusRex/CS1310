@@ -70,6 +70,24 @@ Computing Arithmetic Operations mod m
   [(x mod m) + (y mod m)] mod m = [x + y] mod m
   [(x mod m)(y mod m)] mod m = [x*y] mod m
 
+Prime
+  p is prime if p > 1 and only factors are {1,p}
+Composite
+  factor other than 1 or p
+
+Prime Factorization
+  every positive integer greater than 1 can be expressed as a product of primes
+  pf of 100 = 2 * 2 * 5 * 5
+  pf of prime number has one factor 17 = 17
+  pf of composite has multiple 243 = 3^5 or 112 = 2^4 * 7
+
+Fundamental Theorem of Arithmetic
+  Every positive integer p, where p > 1, can be expressed uniquely as a product of prime numbers where
+    the prime factors are written in nondecreasing order
+
+Multiplicity
+  number of times prime factor p appears in the prime facorization
+
 
   
 
