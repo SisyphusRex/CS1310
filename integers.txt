@@ -28,4 +28,27 @@ Division Algorithm
   q = n div d
   r = n mod d
   
+Modular Arithmetic
+  Addition
+    (x + y) mod m
+  Multiplication
+    (x * y) mod m
+
+Ring
+  set {0, 1, 2, ... , m-1}
+  iff addition and multiplication are defined
+  ℤₘ is ring symbol
+
+Hash Function
+  maps data items into array called hash table
+  Hash Table should be larger than input data set
+  h(n) = cn mod T
+    n is input key
+    c is a constant
+    T is size of hash table
+  ** NOTE: T and c should be coprime to reduce collisions
+
+Pseudo-Random Number Generators
   
+
+
