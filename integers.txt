@@ -1,0 +1,31 @@
+Integer Division
+  Input and output values must always be integers
+  Dividend, divisor, quotient and remainder are all integers
+Division Algorithm
+  x|y , x divides y
+  iff x≠0 and there is an integer k such that y = kx
+  x∤y , x does not divide y
+  If x|y, then y is a multiple of x, and x is factor of y
+
+Linear Combination
+  the sum of multiples of two numbers
+  Example:
+    3x + 7y
+  Generic:
+    sx + ty
+
+Divisibility of Linear Combinations
+  if x|y and x|z then x|(sy + tz)
+
+Division Algorithm
+  q: quotient 
+  r: remainder
+  d: divisor
+  n: dividend
+  n is an integer and d is positive integer
+    then there are unique integers q and r with 0 ≤ r ≤ d-1 
+    such that n = qd + r
+  q = n div d
+  r = n mod d
+  
+  
