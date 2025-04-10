@@ -110,6 +110,9 @@ For LCM, use max exponent between pf 2^max{3,1} * 3^max{1,0}...
 
 Euclid's Theorem
   There are an infinite number of primes
+
+Small Factors
+  If N is a composite number, then N has a factor greater than 1 and at most sqrt(N)
   
 
 
