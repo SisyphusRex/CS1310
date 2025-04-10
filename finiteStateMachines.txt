@@ -44,3 +44,12 @@ Regular Sets, Regular Expressions
   10* is {1, 10, 100, 1000...}
   0(0|1)* is any string starting with 0 then infinite number of 0 or 1
   (0*1)* is any number of zeros followed by 1, repeated
+
+Finite State Tuple
+  M = (S, I, f, s_0, F)
+  S are states
+  I alphabet
+  f is transition function
+  s_0 is start state
+  F accepting states
+  
