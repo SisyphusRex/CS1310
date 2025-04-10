@@ -23,7 +23,7 @@ FSM with Output
     O = {Gumball, Return, Message, None}
   δ Domain
     Q x I
-  δ Target
+  δ Target for output function
     Q x O
   δ: Q x I → Q x O
 
