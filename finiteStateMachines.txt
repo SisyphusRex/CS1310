@@ -40,5 +40,7 @@ FSM Limitations
   Finite Memory and only the Current State
     cannot handle sets with infinite members
 
-Small Factors
-  If N is a composite number, then N has a factor greater than 1 and at most sqrt(N)
+Regular Sets, Regular Expressions
+  10* is {1, 10, 100, 1000...}
+  0(0|1)* is any string starting with 0 then infinite number of 0 or 1
+  (0*1)* is any number of zeros followed by 1, repeated
