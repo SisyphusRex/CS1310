@@ -60,3 +60,11 @@ OR
   f: transition function
   g: output function
   σ: initial state
+
+Finite State Automaton Tuple:
+  A = (I, S, f, F, σ)
+  I: alphabet/inputs
+  S: states
+  f: transition function δ (delta)
+  F: accepting states
+  σ: sigma, initital state
