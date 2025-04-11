@@ -52,4 +52,11 @@ Finite State Tuple
   f is transition function
   s_0 is start state
   F accepting states
-  
+OR
+  M = (I,O,S,f,g,σ)
+  I: alphabet
+  O: output target
+  S: states
+  f: transition function
+  g: output function
+  σ: initial state
