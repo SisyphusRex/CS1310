@@ -114,5 +114,20 @@ Euclid's Theorem
 Small Factors
   If N is a composite number, then N has a factor greater than 1 and at most sqrt(N)
   
+GCD Theorem
+  GCD(x,y) = GCD(y mod x, x)
+  used in euclids algorithm for finding GCD of large numbers by repeatedly taking mod
+
+Extended Euclidean Algorithm
+  Let x and y be integers, then there are integers s and t such that:
+    GCD(x,y) = sx + ty
+    d = y div x
+    y = dx + r (remainder)
+    r = y - dx
+    
+
+Div Function
+  d = y div x
+  y = dx + r (d times x plus remainder equals y)
 
 
