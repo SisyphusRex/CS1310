@@ -6,3 +6,7 @@ $`2*10^{2} + 5*10^{1} + 6*10^{0}`$
 
 Base b expansion of n:  
 $`(𝑎_{𝑘}𝑎_{𝑘-1}...𝑎_{1}𝑎_{0})_{𝑏}`$
+
+
+Largest number n represented by k digits base b:  
+$`n=b^{k}-1`$
