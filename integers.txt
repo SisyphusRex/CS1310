@@ -141,4 +141,17 @@ Mod Function
   r = y - x * ( y div x)
     using the definition of the div function
 
+Modular Multiplicative Inverse
+  A multiplicative inverse mod n of an integer x, is an integer s ∈ 1,2,...,n-1 such that sx mod n = 1
+  x has an inverse mod n iff x and n are relatively prime/coprime
+
+Extended Euclidean Algorithm to find Modular Multiplicative Inverse
+  if GCD(x,n) ≠ 1, then x does not have a mod n multiplicative inverse (i.e. x and n are not coprime)
+  use extended algorithm to find 1 = sx + tn
+  sx - 1 = -tn
+  if A - B is a multiple of n, then A mod n = B mod n
+  thus sx mod n = 1 mod n 
+  thus sx mod n = 1
+  thus s mod n is the multiplicative inverse mod n of x
+
 
