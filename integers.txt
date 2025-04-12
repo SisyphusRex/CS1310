@@ -124,10 +124,21 @@ Extended Euclidean Algorithm
     d = y div x
     y = dx + r (remainder)
     r = y - dx
+  Use Euclids Algorithm to find GCD but save y,x,r of each iteration
+    plug them into r = y - x * (y div x)
+    save the equation before reducing
+    substitute into the last iteration equation using previous values of r equations
+    keep substituting until you have coefficients of original x and y
     
 
 Div Function
   d = y div x
-  y = dx + r (d times x plus remainder equals y)
+  y = dx + r 
+    (d times x plus remainder equals y)
+
+Mod Function
+  r = y mod x
+  r = y - x * ( y div x)
+    using the definition of the div function
 
 
