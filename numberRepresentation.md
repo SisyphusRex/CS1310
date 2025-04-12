@@ -9,4 +9,7 @@ $`(𝑎_{𝑘}𝑎_{𝑘-1}...𝑎_{1}𝑎_{0})_{𝑏}`$
 
 
 Largest number n represented by k digits base b:  
-$`n=b^{k}-1`$
+$`n=b^{k}-1`$  
+
+Number of Digits required to express base b expansion of a positiv integer n:  
+$`\left\lceil \log_{b}(n+1) \right\rceil`$
