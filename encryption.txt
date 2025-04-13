@@ -43,8 +43,10 @@ RSA Steps:
   1. Bob selects two large prime numbers p and q
   2. Bob computes N = pq and Φ=(p-1)(q-1)
   3. Bob finds an integer e such that GCD(e,Φ)=1 (coprime)
+      NOTE: bob may have to use Euclid's Extended Algorithm many times to determine e
   4. Bob computes the multiplicative inverse of e mod Φ:
       an integer d such that (e*d)modΦ = 1
+      NOTE: multiply e by an integer d until mod Φ = 1
   5. Public key: N and e
   6. Private Key: d
 
