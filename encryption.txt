@@ -1,0 +1,15 @@
+Alice is sender
+Bob is receiver
+Eve is eavesdropper
+m is plaintext
+c is ciphertext
+k is secret key
+M is set of all possible plaintexts
+C is set of all possible ciphertexts
+
+Consider cryptosystem in which set of possible plaintexts is Z_N for some integer N.
+Alice and Bob share a secret number k ∈ Z_N
+To encrypt plaintext m ∈ Z_N:
+c = (m + k) mod N
+Decryption (inverse):
+m = (c - k) mod N
