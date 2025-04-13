@@ -154,4 +154,11 @@ Extended Euclidean Algorithm to find Modular Multiplicative Inverse
   thus sx mod n = 1
   thus s mod n is the multiplicative inverse mod n of x
 
+Fast Exponentiation
+  x^y
+  take binary expansion of y and multiply each base to binary power
+  Example:
+    5^7
+    binary expansion of 7: (111)_2
+    5^2^2 * 5^2^1 * 5^2^0 = 5^7
 
