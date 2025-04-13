@@ -13,3 +13,14 @@ To encrypt plaintext m ∈ Z_N:
 c = (m + k) mod N
 Decryption (inverse):
 m = (c - k) mod N
+
+Symmetric Key Cryptosystem
+  Alice and Bob share same key, and must meet in advance to share the key.
+
+Requirements:
+  One-to-one encryption
+    if m≠m' and m,m' ∈ Z_N, then (m+k)mod N ≠ (m' + k) mod N
+  Decryption is inverse of encryption
+    if m ∈ Z_N then (((m+k)mod N) - k) mod N = m
+
+
