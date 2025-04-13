@@ -50,6 +50,10 @@ RSA Steps:
   5. Public key: N and e
   6. Private Key: d
 
+RSA Encryption:
+  C = m^e mod N
+RSA Decryption:
+  m = c^d mod N
 
 
 
