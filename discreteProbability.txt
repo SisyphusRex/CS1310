@@ -23,4 +23,11 @@ Uncountably Infinite
     get number within a range
       probability density functions
 
+See Probability Distribution.md
+
+Uniform Distribution
+  Every outcome has the same probability
+  p(s) = 1 / |S|     cardinality of S, or number of elements
+  p(E) = |E|/|S|
+
 
