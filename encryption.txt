@@ -55,5 +55,8 @@ RSA Encryption:
 RSA Decryption:
   m = c^d mod N
 
-
+RSA Theorem
+  Let p and q be prime numbers and pq = N.  Suppose that m ∈ Z_N and GCD(m,N) = 1.  Then m^((p-1)(q-1))mod N = 1.
+RSA Theorem 2
+  If m ∈ Z_N and GCD(m,N) = 1, then encryption and decryption applied to m always yield m
 
