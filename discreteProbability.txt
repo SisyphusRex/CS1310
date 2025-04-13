@@ -1,0 +1,26 @@
+Bayes Theorem
+  P(A|B) = (P(B|A)P(A))/P(B)
+
+Experiment:
+  procedure that results in one out of a number of possible outcomes
+Sample Space:
+  Set of all possible outcomes
+Event:
+  Subset of the sample space
+Outcome
+    possible happening or occurrence
+
+Discrete Probability
+    sample space is finite or countably infinite set
+    probability mass functions
+Countably Infinite:
+    if there is a one-to-one (injective) correspondence between the elements of the set and the integers
+    Examples:
+      binary strings, rational numbers, ordered pairs of integers
+Uncountably Infinite
+    set of Real numbers (infinite amount of numbers between 0 and 1)
+    continuous probability
+    get number within a range
+      probability density functions
+
+
