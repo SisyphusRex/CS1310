@@ -30,4 +30,8 @@ Uniform Distribution
   p(s) = 1 / |S|     cardinality of S, or number of elements
   p(E) = |E|/|S|
 
+If two events are disjoint, then
+  p(E1 ∪ E2) = p(E1) + p(E2)
 
+If Not Disjoint
+  p(E1 ∪ E2) = p(E1) + p(E2) - p(E1 ∩ E2)
