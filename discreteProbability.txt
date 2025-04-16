@@ -1,5 +1,7 @@
 Bayes Theorem
   P(A|B) = (P(B|A)P(A))/P(B)
+Conditional
+  p(A|B) = p(A ∩ B)/p(B)
 
 Experiment:
   procedure that results in one out of a number of possible outcomes
@@ -35,3 +37,34 @@ If two events are disjoint, then
 
 If Not Disjoint
   p(E1 ∪ E2) = p(E1) + p(E2) - p(E1 ∩ E2)
+
+Complement
+  p(E) + p(E') = 1
+
+Conditional
+  probability of E given F
+  p(E|F) = p(E ∩ F)/ p(F)
+  if  distribution is uniform, then:
+    p(E|F) = |E∩F|/|F|
+
+Conditional Complement
+  p(E|F) + p(E'|F) = 1
+
+Independent Events
+  One of these conditions must be true:
+  p(E|F) = p(E∩F)/p(F) = p(E)
+  p(E∩F) = p(E) * p(F)
+  p(F|E) = p(E∩F)/p(E) = p(F)
+
+Mutual Indenpendence
+  IFF p(A∩B∩C) = p(A) * p(B) * p(C)
+
+Bayes Theorem
+  p(F|X) = p(X|F)p(F)/[p(X|F)p(F) + p(X|F')p(F')] = p(X|F)p(F)/p(X)
+
+**NOTE**
+The probability that if a person has a disease they test positive is p(T|B)
+BUT
+The probablility that if a person tests positive has the disease is p(B|T) and is Bayes Theorem
+  the probability is usually much lower
+
