@@ -80,3 +80,8 @@ Distribution over a Random Variable
   Σ of all p(X=r) must equal 1
   each pair in set consists of value of X(S) (which is r) and p(X=r)
   Example: {(2,1/36), (3,1/18),...,(12,1/36)}
+
+Expected Value of a random variable
+  E[X] = sum for all s:  X(s)*p(s)
+Alternative
+  E[X] = sum for all r:  r * p(X=r)
