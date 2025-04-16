@@ -68,3 +68,15 @@ BUT
 The probablility that if a person tests positive has the disease is p(B|T) and is Bayes Theorem
   the probability is usually much lower
 
+Random Variable
+  A random variable X is a function from the sample space S of an experiment to the real nmbers.  X(S) denotes the range of
+the function X
+Random Variable and Probabilities
+  If X is a random variable defined on the sample space S and r is a real number, the X = r is an event.
+  The event X = r consists of all outcomes s in the sample space such that X(s)=r.
+  p(X=r) is the sum of p(s) for all s such that X(s) = r. 
+Distribution over a Random Variable
+  Set of all pairs (r, p(X=r)) such that r ∈ X(S)
+  Σ of all p(X=r) must equal 1
+  each pair in set consists of value of X(S) (which is r) and p(X=r)
+  Example: {(2,1/36), (3,1/18),...,(12,1/36)}
