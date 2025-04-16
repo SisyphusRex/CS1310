@@ -85,3 +85,24 @@ Expected Value of a random variable
   E[X] = sum for all s:  X(s)*p(s)
 Alternative
   E[X] = sum for all r:  r * p(X=r)
+
+Linearity of Expectations
+  E[X+Y] = E[X] + E[Y]
+  E[cX] = cE[X]
+  and applies to more than two variables E[X+Y+Z+...] = E[X] + E[Y] + E[Z] + ...
+
+Bernoulli Trial
+  Experiment with two outcomes: success or failure
+Bernoulli Process:
+  repeated trials with mutually independent outcomes and same probability of success or failure
+Success: p
+Failure: q or 1-p
+Bernoulli Trial Probabilities:
+  probability of exactly k successes in sequence of n trials
+  nCk * p^k * q^(n-k)
+E[k] = n * p
+
+Binomial Distribution
+  distribution over random variable of number of successes in sequence of Bernoulli trials
+  probability b is y-axis, #successes k is x-axis
+  b(k;n,p) = nCk * p^k * q^(n-k)
