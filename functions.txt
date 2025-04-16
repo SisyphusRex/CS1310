@@ -72,3 +72,6 @@ Strictly Increasing
 
 Strictly Decreasing
     x1 < x2 and f(x1) > f(x2)
+
+Composition
+    (g∘f)x = g(f(x))
