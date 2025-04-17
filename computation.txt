@@ -12,7 +12,7 @@ Omega Notation Ω (LOWER BOUND)
 
 𝑓 is Ω(𝑔) iff 𝑔 is O(𝑓)
 
-Theta Notation Θ (SAME RATE) (GROWTH RATE)
+Theta Notation Θ (SAME RATE) (GROWTH RATE) (TIGHT BOUND)
   Let 𝑓 and 𝑔 be functions from ℤ+ to ℝ≥
   Then 𝑓 is Θ(𝑔) if 𝑓 is O(𝑔) and 𝑓 is Ω(𝑔)
 
